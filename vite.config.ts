@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
 
 export default defineConfig({
+  base: '/kinetic-arts/',
   server: { port: 5173 },
-  build: { chunkSizeWarningLimit: 1200 },
-});
+})
